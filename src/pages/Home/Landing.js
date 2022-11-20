@@ -23,7 +23,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div className="shadow-lg p-16 w-5/6 relative rounded-lg mx-auto mt-[-34px] bg-base-200 z-20">
+      <div className="shadow-lg p-16 w-5/6 relative rounded-lg mx-auto mt-[-50px] bg-base-200 z-20">
         <h1 className="text-2xl text-primary mb-5">get free estimate</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <input
@@ -48,22 +48,22 @@ const Landing = () => {
           />
           <input
             type="text"
-            placeholder="Type here"
+            placeholder="Number of bedrooms"
             className="input input-bordered w-full shadow-lg"
           />
           <input
             type="text"
-            placeholder="Type here"
+            placeholder="Number of bathrooms"
             className="input input-bordered w-full shadow-lg"
           />
           <input
             type="text"
-            placeholder="Type here"
+            placeholder="Frequency of Cleaning"
             className="input input-bordered w-full  shadow-lg"
           />
           <input
             type="text"
-            placeholder="Type here"
+            placeholder="Type of Cleaning"
             className="input input-bordered w-full shadow-lg"
           />
         </div>
